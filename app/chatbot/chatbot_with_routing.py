@@ -40,7 +40,11 @@ def load_vector_index(persist_dir: str):
 
 
 index_persist_path = "./storage/documents_index"
+financial_index_persist_path = "./storage/financial_knowledge_base_index"
+
 documents_index = load_vector_index(index_persist_path)
+financial_index = load_vector_index(financial_index_persist_path)
+
 documents_query_engine = documents_index.as_query_engine(similarity_top_k=10, llm=llm)
 documents_tool = QueryEngineTool(
     query_engine=documents_query_engine,
@@ -49,7 +53,15 @@ documents_tool = QueryEngineTool(
         description="Use this tool to execute semantic queries against document store."
     ),
 )
-all_tools = [documents_tool]
+fin_documents_query_engine = financial_index.as_query_engine(similarity_top_k=10, llm=llm)
+fin_documents_tool = QueryEngineTool(
+    query_engine=fin_documents_query_engine,
+    metadata=ToolMetadata(
+        name="earning_release_kpis",
+        description="Use this tool to execute semantic queries against KPIs from earnings release."
+    ),
+)
+all_tools = [documents_tool, fin_documents_tool]
 
 class QueryPlanningWorkflow(Workflow):
     planning_prompt = PromptTemplate(

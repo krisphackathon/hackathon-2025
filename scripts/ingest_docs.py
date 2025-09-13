@@ -28,9 +28,9 @@ def read_docs_from_dir(input_dir: Path):
     return md_files
 
 
-def build_vector_index(persist_dir: str):
+def build_vector_index(input_dir: str, persist_dir: str):
     index_docs = []
-    for doc in read_docs_from_dir(Path("./data/parsed")):
+    for doc in read_docs_from_dir(Path(input_dir)):
         with open(doc) as f:
             index_doc = Document(
                 text=f.read(),
@@ -56,4 +56,5 @@ def build_vector_index(persist_dir: str):
 
 
 if __name__ == "__main__":
-    build_vector_index(persist_dir="app/storage/documents_index")
+    # build_vector_index(input_dir="./data/parsed", persist_dir="app/storage/documents_index")
+    build_vector_index(input_dir="./data/summaries", persist_dir="app/storage/financial_knowledge_base_index")
