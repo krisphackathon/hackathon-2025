@@ -1,0 +1,11 @@
+# Streamlit app requirements
+streamlit==1.31.0
+requests==2.31.0
+websockets==12.0
+
+# For local development (optional)
+python-dotenv==1.0.1
+
+# PDF processing (if converting PDFs locally)
+pymupdf4llm>=0.0.27
+PyMuPDF>=1.26.3
