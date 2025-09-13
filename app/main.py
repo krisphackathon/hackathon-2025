@@ -3,6 +3,7 @@ from pydantic import BaseModel
 import uvicorn
 
 from pydantic_ai import Agent, RunContext
+from pydantic_ai.messages import ModelMessage
 
 from service import get_vector_store
 from prompt import system_prompt
@@ -21,9 +22,11 @@ agent = Agent(
     system_prompt=system_prompt,
 )
 
+message_history: list[ModelMessage] = []
+
 @agent.tool
 async def retrieve(ctx: RunContext, question: str) -> str:  
-    """This is agent that can answer to user task related financial documents.
+    """This is agent that can answer to user task related knowledge base of documents.
     
     Args:
         question: The question to be answered.
@@ -45,11 +48,13 @@ async def retrieve(ctx: RunContext, question: str) -> str:
 @app.post("/")
 async def chatbot_response( 
     request: UserQuestion,
-    vector_store: None = Depends(get_vector_store)
+    vector_store: None = Depends(get_vector_store),
 ):
     user_question = request.question.lower().strip()
     
-    result = await agent.run(user_question)
+    result = await agent.run(user_question, message_history=message_history)
+    model_messages = result.new_messages()
+    message_history.extend(model_messages)
 
     return {"response": result.output}
 

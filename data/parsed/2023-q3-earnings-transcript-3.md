@@ -1,11 +1,11 @@
 
-*This transcript is provided for the convenience of investors only, for a full recording please see the Q3 2023 Earnings Call webcast.*
+This transcript is provided for the convenience of investors only, for a full recording please see the Q3 2023 Earnings Call webcast.
 
-**Operator:** Welcome, everyone.
+Operator: Welcome, everyone.
 
 Thank you for standing by for the Alphabet third quarter 2023 earnings conference call. At this time, all participants are in listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during the session, you will need to press *1 on your telephone. I would now like to hand the conference over to your speaker today Jim Friedland, Director of Investor Relations. Please go ahead.
 
-**Jim Friedland, Director Investor Relations:** Thank you.
+Jim Friedland, Director Investor Relations: Thank you.
 
 Good afternoon, everyone, and welcome to Alphabet’s Third Quarter 2023 Earnings conference call. With us today are Sundar Pichai, Philipp Schindler and Ruth Porat. Now I’ll quickly cover the Safe Harbor.
 
@@ -17,7 +17,7 @@ During this call, we will present both GAAP and non-GAAP financial measures. A r
 
 Our comments will be on year-over-year comparisons unless we state otherwise. And now I’ll turn the call over to Sundar.
 
-**Sundar Pichai, CEO Alphabet and Google:** Thank you, Jim. And hello, everyone.
+Sundar Pichai, CEO Alphabet and Google: Thank you, Jim. And hello, everyone.
 
 I’m pleased with our business results this quarter, which demonstrate strong growth in Search and YouTube, and momentum in Cloud.
 
@@ -28,8 +28,11 @@ Our product momentum continued this quarter, as you saw with Cloud Next, Made on
 First, improving knowledge and learning. This includes our work with the Search Generative
 
 
+
 ---
 
+
+# Experience
 
 Experience, which is our experiment to bring generative AI capabilities into Search.
 
@@ -49,6 +52,8 @@ Of course, ads will continue to play an important role in this new Search experi
 
 We’ll experiment with new formats native to SGE that use generative AI to create relevant, high-quality ads, customized to every step of the search journey.
 
+# Boosting Creativity and Productivity
+
 The second area we are focused on is boosting creativity and productivity. Bard is particularly helpful here; it’s a direct interface to a conversational LLM, and we think of it as an early experiment and complementary experience to Google Search.
 
 Bard can now integrate with Google apps and services, showing relevant information from Workspace, Maps, YouTube, and Google Flights and hotels.
@@ -59,10 +64,14 @@ Earlier this month, we announced Assistant with Bard -- a personal assistant pow
 
 Our collaborative tools in Workspace and YouTube are also part of how we boost creativity and productivity, and they are seeing great initial traction.
 
+# Enabling Developers and Organizations
+
 Third, we are enabling developers, businesses and other organizations to build their own
 
 
+
 ---
+
 
 
 transformative products and services. For example, thousands of customers and partners are already using Google Cloud to capture the potential of AI, and we’ll share more there in a minute.
@@ -73,7 +82,9 @@ Underlying all this work is the foundational research done by our teams at Googl
 
 As we expand access to our new AI services, we continue to make meaningful investments in support of our AI efforts. We remain committed to durably re-engineering our cost base in order to help create capacity for these investments, in support of long-term, sustainable financial value. Across Alphabet, teams are looking at ways to operate as effectively as possible, focused on their biggest priorities.
 
-Turning next to YouTube, which saw solid momentum in both its ads and subscription businesses in Q3.
+# Turning next to YouTube
+
+which saw solid momentum in both its ads and subscription businesses in Q3.
 
 NFL Sunday Ticket is now live and receiving excellent reviews. Fans love our multiview feature, which can livestream up to four games on a single screen. We have heard positive feedback from our partners at the NFL about the new features and livestream reliability. This is a clear example of our ability to execute big partnerships with excellence and at scale.
 
@@ -81,7 +92,9 @@ I’m really pleased with the growth and engagement on YouTube Shorts. We contin
 
 At Made On YouTube in September, we announced new tools that make it easier to create engaging content. Dream Screen is an experimental feature that allows creators to add AI-generated video or image backgrounds to Shorts. And YouTube Create is a new mobile app with a suite of production tools for editing Shorts, longer videos or both.
 
-Next, Google Cloud. We see continued growth, with Q3 revenue of $8.4 billion, up 22%.
+# Next, Google Cloud
+
+We see continued growth, with Q3 revenue of $8.4 billion, up 22%.
 
 Today, more than 60% of the world’s thousand-largest companies are Google Cloud customers. At Cloud Next, we showcased amazing innovations across our entire portfolio of Infrastructure, Data and AI, Workspace Collaboration, and Cybersecurity solutions.
 
@@ -90,14 +103,20 @@ We offer advanced AI-optimized infrastructure to train and serve models at scale
 We continue to provide the widest choice of accelerator options. Our A3 VMs powered by
 
 
+
 ---
 
 
-NVIDIA’s H100 GPU are generally available, and we are winning customers with Cloud TPU v5e, our most cost-efficient and versatile accelerator to date.
+
+# NVIDIA’s H100 GPU are generally available
+
+and we are winning customers with Cloud TPU v5e, our most cost-efficient and versatile accelerator to date.
 
 On top of our infrastructure, our Vertex AI platform helps customers build, deploy and scale AI-powered applications. We offer more than 100 models -- including popular third-party and open-source models, as well as tools to quickly build Search and Conversation use cases. From Q2 to Q3, the number of active generative AI projects on Vertex AI grew by 7X, including Highmark Health, which is creating more personalized member materials.
 
-Duet AI was created using Google's leading large foundation models and is specially trained to help users to be more productive on Google Cloud. We continue expanding its capabilities and integrating it across a wide range of Cloud products and services.
+# Duet AI
+
+was created using Google's leading large foundation models and is specially trained to help users to be more productive on Google Cloud. We continue expanding its capabilities and integrating it across a wide range of Cloud products and services.
 
 With Duet AI, we’re helping leading brands like PayPal and Deutsche Bank boost developer productivity. And we are enabling retailers like Aritzia and Gymshark to gain new insights for better and faster business results. In fact, companies are increasingly using AI for the purpose of analyzing data, and customers are choosing Google Cloud because we are the only large cloud provider with a unified platform to analyze structured and unstructured data.
 
@@ -105,11 +124,14 @@ In Workspace, thousands of companies and more than a million trusted testers hav
 
 We also integrated Duet AI across our cybersecurity portfolio to differentiate in the marketplace, providing generative AI-powered assistance in Mandiant Threat Intelligence, Chronicle Security Operations and Security Command Center. This reduces the time security teams spend writing, running and refining searches by seven times. We are the only leading security provider that combines frontline intelligence and expertise, a modern security operations platform, and a trusted cloud foundation, all infused with generative AI -- helping protect customers and partners like BT, Jack Henry and Associates, and CoverMyMeds.
 
-Turning to hardware. We unveiled our new products this month. We introduced our new Pixel 8, Pixel 8 Pro and Pixel Watch 2 to very positive consumer feedback and reviews. Pixel is the fastest-growing smartphone brand in our top markets, and the only one that grew in units sold year over year.
+# Turning to hardware
+
+We unveiled our new products this month. We introduced our new Pixel 8, Pixel 8 Pro and Pixel Watch 2 to very positive consumer feedback and reviews. Pixel is the fastest-growing smartphone brand in our top markets, and the only one that grew in units sold year over year.
 
 Our portfolio of Pixel products are brought to life thanks to our combination of foundational technologies -- AI, Android and Google Tensor. Google Tensor G3 is the third generation of our tailor-built chip. It's designed to power transformative experiences by bringing the latest in Google AI research directly to our newest phones.
 
 And new AI-powered editing features in Google Photos on Pixel 8 and Pixel 8 Pro remove distractions, generate the best shot from multiple images, and reduce distracting sounds in videos. Pixel and our third-party ecosystem are powered by Android. We just released Android 14 with more accessibility features.
+
 
 
 ---
@@ -125,13 +147,13 @@ Before handing over to Philipp, I want to thank our employees around the world w
 
 Philipp.
 
-**Philipp Schindler, SVP and CBO, Google:** Thanks, Sundar. And hi, everyone.
+Philipp Schindler, SVP and CBO, Google: Thanks, Sundar. And hi, everyone.
 
 I’ll start with our performance for the quarter and then give color into the three key priority areas for Ads -- Google AI, Retail, and YouTube -- that we’ve identified on past calls as opportunities for long-term growth in advertising.
 
 Google Services revenues of $68 billion were up 11% year-on-year.
 
-In Google Advertising, Search & Other, revenues grew 11% year-on-year, led by solid growth in the Retail vertical. In YouTube Ads, revenues were up 12% year-on-year, driven by growth in both brand and direct response. In Network, revenues declined 3% year-on-year.
+In Google Advertising, Search &#x26; Other, revenues grew 11% year-on-year, led by solid growth in the Retail vertical. In YouTube Ads, revenues were up 12% year-on-year, driven by growth in both brand and direct response. In Network, revenues declined 3% year-on-year.
 
 Google Other revenues were up 21% year-on-year, led by strong growth in YouTube subscription revenues.
 
@@ -142,32 +164,41 @@ We covered many innovations last quarter after GML, like our conversational expe
 In retail, we had a great quarter. In a market where every dollar counts, our proven AI-powered solutions like Search and PMax are helping retailers drive reliable, strong ROI and meet
 
 
+
 ---
 
 
 customers wherever they are across the funnel. In Q3, we also started prepping retailers for what will be a long holiday season.
 
-Let me share some themes.
+# Let me share some themes.
 
-Number one - With the maximum number of days between Thanksgiving and Christmas -- and expectations for many micro-peaks beyond Cyber 5 -- we’re arming businesses with insights and planning tools, including Optiscore and Performance Planner, to uncover new opportunities, plan budgets and targets to stay competitive, and be smarter with their inventory and pricing strategy.
+# Number one
 
-Number two - Consumer expectations are shifting, especially around price and convenience. We’ve seen 4X "deals" queries during the holidays versus other periods. 75% of users say they’ll shop with those offering free shipping. Retailers are capitalizing on these trends with our differentiated merchant offerings like merchant promotions and fulfillment options, and we’re making improvements to significantly boost the number of deals shown to shoppers in Search this holiday season. Look out for more in the coming days about new ways we’ll help shoppers browse deals across the web this year.
+With the maximum number of days between Thanksgiving and Christmas -- and expectations for many micro-peaks beyond Cyber 5 -- we’re arming businesses with insights and planning tools, including Optiscore and Performance Planner, to uncover new opportunities, plan budgets and targets to stay competitive, and be smarter with their inventory and pricing strategy.
 
-Number three - No surprise, Omnichannel is the way to succeed. With our suite of omni-product solutions including Local Inventory Ads, omnibidding, and PMax for Store Goals, retailers big and small are capturing demand and incremental store budgets while engaging with high-value customers.
+# Number two
+
+Consumer expectations are shifting, especially around price and convenience. We’ve seen 4X "deals" queries during the holidays versus other periods. 75% of users say they’ll shop with those offering free shipping. Retailers are capitalizing on these trends with our differentiated merchant offerings like merchant promotions and fulfillment options, and we’re making improvements to significantly boost the number of deals shown to shoppers in Search this holiday season. Look out for more in the coming days about new ways we’ll help shoppers browse deals across the web this year.
+
+# Number three
+
+No surprise, Omnichannel is the way to succeed. With our suite of omni-product solutions including Local Inventory Ads, omnibidding, and PMax for Store Goals, retailers big and small are capturing demand and incremental store budgets while engaging with high-value customers.
 
 Innovation continues across our shopping and merchant experiences, powered by Google AI. Our virtual try-on tool for apparel launched in June and has been a hit with consumers and brands. Users engage with virtual try-on images at a higher rate versus regular brand-provided images.
 
 Product Studio is another launch from GML getting positive feedback in pilot mode. It uses the best of gen AI to help businesses create unique and tailored imagery for free that they can then scale across their channels. We're seeing early merchant testers using it to "seasonalize" their content for the holidays.
 
-Let’s shift to YouTube. It’s worth repeating: our intense focus on creator success coupled with our multiformat strategy are at the center of how we think about YouTube’s long-term growth. Shorts, Connected TV and our subscription offerings are key drivers here, and we’re investing across each to solidify YouTube’s position as the best place to create, the best place to watch and the best place to deliver results.
+# Let’s shift to YouTube.
+
+It’s worth repeating: our intense focus on creator success coupled with our multiformat strategy are at the center of how we think about YouTube’s long-term growth. Shorts, Connected TV and our subscription offerings are key drivers here, and we’re investing across each to solidify YouTube’s position as the best place to create, the best place to watch and the best place to deliver results.
 
 Sundar mentioned watchtime and engagement momentum on Shorts as well as our monetization progress. He also covered subscription growth and NFL Sunday Ticket. As for Connected TV, we continue to be the number one overall streaming destination according to Nielsen. 150 million+ people are watching YouTube on CTV screens every month in the U.S.
 
 Whether it’s music videos, NFL Sunday Ticket, free movies, Shorts, a continuous stream of MrBeast or some other creator-led content, viewers want choice and variety and we’re giving it
 
 
----
 
+---
 
 to them all in one place.
 
@@ -191,11 +222,12 @@ With that, I’ll end with a thank you to our customers and partners around the 
 
 Ruth, over to you.
 
-**Ruth Porat, President and Chief Investment Officer; CFO, Alphabet and Google:** Thank you, Philipp.
-
+Ruth Porat, President and Chief Investment Officer; CFO, Alphabet and Google: Thank you, Philipp.
 
 ---
 
+
+# Financial Results for the Third Quarter
 
 We are very pleased with our financial results for the third quarter, driven by meaningful growth in Search and YouTube, and momentum in Cloud.
 
@@ -203,7 +235,11 @@ My comments will be on year-over-year comparisons for the third quarter, unless 
 
 I will start with results at the Alphabet level, followed by segment results, and conclude with our outlook.
 
+# Alphabet Level Results
+
 For the third quarter, our Consolidated Revenues were $76.7 billion, up 11% in both reported and constant currency. Search remained the largest contributor to revenue growth.
+
+# Expenses
 
 In terms of expenses, Total Cost of Revenues was $33.2 billion, up 7%, primarily reflecting Other Cost of Revenues of $20.6 billion, which was up 6%.
 
@@ -211,23 +247,38 @@ Growth here was primarily driven by Content Acquisition Costs, mainly for YouTub
 
 As noted in our earnings release, the overall increase in data center and other operations costs was partially offset by a reduction in depreciation expense due to the change in estimated useful lives we made starting in the first quarter of the year.
 
-Operating expenses were $22.1 billion, up 6%, reflecting the following: First, an increase in R&D expenses, driven primarily by compensation; second, an increase in G&A expenses reflecting the impact of charges related to legal matters; and finally, Sales & Marketing expenses, which were relatively flat to last year.
+# Operating Expenses
+
+Operating expenses were $22.1 billion, up 6%, reflecting the following: First, an increase in R&#x26;D expenses, driven primarily by compensation; second, an increase in G&#x26;A expenses reflecting the impact of charges related to legal matters; and finally, Sales &#x26; Marketing expenses, which were relatively flat to last year.
+
+# Operating Income
 
 Operating income was $21.3 billion, up 25%, and our operating margin was 28%.
 
-Other Income & Expense was a loss of $146 million.
+# Other Income &#x26; Expense
+
+Other Income &#x26; Expense was a loss of $146 million.
+
+# Net Income
 
 Net income was $19.7 billion. This reflects an effective tax rate of 7% in the third quarter from an IRS change related to the use of foreign tax credits which had an outsized impact on the third-quarter rate, because the change resulted in a catch-up for prior periods.
+
+# Free Cash Flow
 
 We delivered Free Cash Flow of $22.6 billion in the third quarter and $78 billion for the trailing 12 months.
 
 We ended the quarter with $120 billion in cash and marketable securities. As a reminder, our cash balance and free cash flow in the second and third quarters benefited from the deferral of certain tax payments to the fourth quarter of 2023. As noted in our earnings release, on October 16 we made an estimated tax payment of $10.5 billion related to this deferral, which will be reflected in our cash balance and free cash flow in the fourth quarter.
 
+# Segment Results
+
 Turning to segment results, within Google Services, Revenues were $68 billion, up 11%.
+
 
 
 ---
 
+
+# Google Search and Other Advertising Revenues
 
 Google Search and Other advertising revenues of $44 billion in the quarter were up 11%, led again by growth in retail.
 
@@ -241,15 +292,20 @@ TAC was $12.6 billion, up 7%.
 
 Google Services Operating Income was $23.9 billion, up 27%, and the operating margin was 35%.
 
+# Google Cloud Segment
+
 Turning to the Google Cloud segment, revenues were $8.4 billion for the quarter, up 22%. GCP revenue growth remained strong across geographies, industries and products, although the Q3 year-on-year growth rate reflects the impact of customer optimization efforts. Google Workspace also delivered strong revenue growth, primarily driven by increases in average revenue per seat. Google Cloud had Operating Income of $266 million, and the operating margin was 3%.
+
+# Other Bets
 
 As to our Other Bets, for the third quarter, revenues were $297 million and the operating loss was $1.2 billion.
 
+# Outlook for the Business
+
 Turning to our outlook for the business, with respect to Google Services.
 
-First, within Advertising, after a period of historic volatility, we were pleased with the year-on-year revenue growth of Search and YouTube advertising in the third quarter.
-
-Second, within Other Revenues, in our YouTube subscription products, the substantial growth in revenues primarily reflects subscriber growth.
+1. First, within Advertising, after a period of historic volatility, we were pleased with the year-on-year revenue growth of Search and YouTube advertising in the third quarter.
+2. Second, within Other Revenues, in our YouTube subscription products, the substantial growth in revenues primarily reflects subscriber growth.
 
 Looking ahead, a full quarter of NFL Sunday Ticket revenues, as well as associated content acquisition costs, will be reflected in Q4 results, compared to only a few weeks in the third quarter.
 
@@ -258,10 +314,13 @@ Play had solid growth in the third quarter, driven primarily by an increase in t
 With respect to Hardware, there is a headwind to revenues in the fourth quarter, reflecting efforts to optimize the portfolio with tighter targeting of our go-to-market investments, as well as the ongoing impact from the difference in launch timing for the Pixel 6a and 7a that we mentioned last quarter.
 
 
+
 ---
 
 
-Turning to Google Cloud, we are pleased with the ongoing customer engagement with GCP and Workspace, and the potential benefit of our AI solutions -- including infrastructure and services such as VertexAI and Duet.
+# Turning to Google Cloud
+
+We are pleased with the ongoing customer engagement with GCP and Workspace, and the potential benefit of our AI solutions -- including infrastructure and services such as VertexAI and Duet.
 
 We continue to invest aggressively, given the significant potential we see, while remaining focused on profitable growth.
 
@@ -269,23 +328,24 @@ In terms of expenses and profitability, we’re pleased with our operating perfo
 
 As we have repeatedly stressed, we remain focused on durably re-engineering our cost base to create investment capacity to support our growth priorities, most important of which is with AI. We have a number of workstreams in place:
 
-* First, we are maintaining a slower pace of headcount growth, reflecting product prioritization and reallocation of talent to support our most important growth opportunities.
-
-* Second, we remain focused on optimizing our real estate footprint, including how and where we work, to reduce our expense growth. As you can see from our earnings release, we incurred $207 million in accelerated rent and depreciation in the third quarter related to these actions.
-
-* Third, we have engineering workstreams underway to improve productivity across Alphabet. Given the magnitude of investment in our technical infrastructure, we have a superb team focused on efficiency of our operations there. We are also making progress in streamlining operations across Alphabet through the use of AI.
-
-* Finally, there are ongoing workstreams that are improving the efficiency of our spend with suppliers and vendors through our central procurement organization.
+1. We are maintaining a slower pace of headcount growth, reflecting product prioritization and reallocation of talent to support our most important growth opportunities.
+2. We remain focused on optimizing our real estate footprint, including how and where we work, to reduce our expense growth. As you can see from our earnings release, we incurred $207 million in accelerated rent and depreciation in the third quarter related to these actions.
+3. We have engineering workstreams underway to improve productivity across Alphabet. Given the magnitude of investment in our technical infrastructure, we have a superb team focused on efficiency of our operations there. We are also making progress in streamlining operations across Alphabet through the use of AI.
+4. There are ongoing workstreams that are improving the efficiency of our spend with suppliers and vendors through our central procurement organization.
 
 And to be clear, across the portfolio of Other Bets companies, we have also been working to identify opportunities to create sharper focus and to operate more efficiently and effectively.
 
-With respect to sequential quarter-on-quarter trends, two further points: First, Cost of Sales in the fourth quarter will reflect both higher hardware costs given Pixel family launches, as well as increased CAC for YouTube as previously noted. Second, as usual, we expect Sales and Marketing expenses to be more heavily weighted to the end of the year in part to support product launches and the holiday season.
+With respect to sequential quarter-on-quarter trends, two further points:
+
+1. Cost of Sales in the fourth quarter will reflect both higher hardware costs given Pixel family launches, as well as increased CAC for YouTube as previously noted.
+2. As usual, we expect Sales and Marketing expenses to be more heavily weighted to the end of the year in part to support product launches and the holiday season.
 
 Finally, our reported capex in Q3 was $8 billion, driven overwhelmingly by investment in our technical infrastructure, with the largest component for servers, followed by data centers, reflecting a meaningful increase in our investments in AI compute.
 
 The growth in reported cash capex in Q3 is somewhat muted due to the timing of supplier payments, which can cause variability from quarter to quarter.
 
 We continue to invest meaningfully in the technical infrastructure needed to support the opportunities we see in AI across Alphabet and expect elevated levels of investment, increasing in the fourth quarter of 2023 and continuing to grow in 2024.
+
 
 
 ---
@@ -297,21 +357,30 @@ Thank you.
 
 Sundar, Philipp and I will now take your questions.
 
-**Operator:** Thank you.
+Operator: Thank you.
 
 As a reminder, to ask a question you will need to press star *1 on your telephone. To prevent any background noise, we ask that you please mute your line once your question has been asked. And our first question comes from Brian Nowak with Morgan Stanley. Your line is open.
 
-**Brian Nowak (Morgan Stanley):** Great. Thanks for taking my questions. I have two. The first one is somewhat of a jump ball. There is somewhat of an investor debate about the incremental return on capital to Search when it comes to AI. I know it's early, but are there any examples that you're seeing with SGE or Bard on higher utility, higher conversion rates, more engagement? Just something to sort of show signal around the return that could come from these investments?
+# Brian Nowak (Morgan Stanley):
+
+Great. Thanks for taking my questions. I have two. The first one is somewhat of a jump ball. There is somewhat of an investor debate about the incremental return on capital to Search when it comes to AI. I know it's early, but are there any examples that you're seeing with SGE or Bard on higher utility, higher conversion rates, more engagement? Just something to sort of show signal around the return that could come from these investments?
 
 And the second one, Ruth, I know you have spoken a lot about durably re-engineering the cost base. I think in the past you talked about how expenses could grow slower than revenue in 2024. Is that sort of still the high-level way to think about it, or is that potentially changing a bit as investments are continuing? Thanks.
 
-**Sundar Pichai, CEO Alphabet and Google:** Ruth, do you want to take the second part, I'll take the first?
+# Sundar Pichai, CEO Alphabet and Google:
 
-**Ruth Porat, President and Chief Investment Officer; CFO, Alphabet and Google:** Sure. Thanks for that, Brian. Overall, that's sort of a truism, as you know well, that looking to grow revenues at a faster rate than expenses as we're focused on delivering sustainable financial value, and so that really takes us to the workstreams which I tried to tick through again. Those remain the driver. They're the real priority. Those are the efforts that are going to enable us to keep expense growth as moderated as possible while supporting the investment growth that is so exciting in front of us, in particular around AI.
+Ruth, do you want to take the second part, I'll take the first?
 
-**Sundar Pichai, CEO Alphabet and Google:** To your first part, obviously, we see AI as a foundational platform shift and are excited about the opportunities across our business. It starts with Search. I've been pretty pleased with how the user feedback has been on SGE. We are rolling it out to more users. Through it all, we're making sure the product works well and we are generating value for our ecosystem and that Ads transitions well.
+# Ruth Porat, President and Chief Investment Officer; CFO, Alphabet and Google:
+
+Sure. Thanks for that, Brian. Overall, that's sort of a truism, as you know well, that looking to grow revenues at a faster rate than expenses as we're focused on delivering sustainable financial value, and so that really takes us to the workstreams which I tried to tick through again. Those remain the driver. They're the real priority. Those are the efforts that are going to enable us to keep expense growth as moderated as possible while supporting the investment growth that is so exciting in front of us, in particular around AI.
+
+# Sundar Pichai, CEO Alphabet and Google:
+
+To your first part, obviously, we see AI as a foundational platform shift and are excited about the opportunities across our business. It starts with Search. I've been pretty pleased with how the user feedback has been on SGE. We are rolling it out to more users. Through it all, we're making sure the product works well and we are generating value for our ecosystem and that Ads transitions well.
 
 I think I view this as, with AI, the opportunity to evolve Search and Assistant over the next decade ahead. And I think as we've always seen, when you continue to invest and build great experiences, you can get value on the other side.
+
 
 
 ---
@@ -321,17 +390,17 @@ And I do think over time there will be newer paths, just like we've done on YouT
 
 Obviously, all of the AI investments we're doing applies across Cloud, too, and I'm pretty optimistic about what's ahead there as well.
 
-**Brian Nowak (Morgan Stanley):** Great. Thank you, both.
+Brian Nowak (Morgan Stanley): Great. Thank you, both.
 
-**Operator:** Your next question comes from Doug Anmuth with JPMorgan. Your line is open.
+Operator: Your next question comes from Doug Anmuth with JPMorgan. Your line is open.
 
-**Doug Anmuth (JPMorgan):** Thanks for taking the questions. One for Sundar and one for Ruth.
+Doug Anmuth (JPMorgan): Thanks for taking the questions. One for Sundar and one for Ruth.
 
 Sundar, you talked a lot about AI. I was hoping you could talk more about Gemini and how it will differentiate from other models -- some of the multimodal capabilities and what new experiences or [agents] you think it could unlock and how we should think about timing.
 
 And then also just on Cloud, hoping you can talk about some of the factors there on the decel in Cloud and just what you're seeing in terms of optimizations, and is there any sign of new workload deployments taking place? Thanks.
 
-**Sundar Pichai, CEO Alphabet and Google:** Thanks, good questions. So on Gemini, obviously, it's an effort from our combined Google DeepMind team. I'm very excited at the progress there and as we're working through getting the model ready.
+Sundar Pichai, CEO Alphabet and Google: Thanks, good questions. So on Gemini, obviously, it's an effort from our combined Google DeepMind team. I'm very excited at the progress there and as we're working through getting the model ready.
 
 To me, more importantly, we are just really laying the foundation of what I think of as the next-generation series of models we'll be launching all throughout 2024. The pace of innovation is extraordinarily impressive to see. We are creating it from the ground up to be multimodal, highly efficient with tool and API integrations, and more importantly, laying the platform to enable future innovations as well.
 
@@ -343,21 +412,22 @@ On Cloud, maybe what I would say is, overall, we have definitely started seeing 
 
 But we are definitely seeing a lot of interest in AI. There are many, many projects underway now. Just on Vertex alone, the number of projects grew over 7X. And so we see signs of stabilization, and I'm optimistic about what's ahead.
 
-**Doug Anmuth (JPMorgan):** Thank you, Sundar.
+Doug Anmuth (JPMorgan): Thank you, Sundar.
+
 
 
 ---
 
 
-**Operator:** Your next question comes from Eric Sheridan with Goldman Sachs. Your line is now open.
+Operator: Your next question comes from Eric Sheridan with Goldman Sachs. Your line is now open.
 
-**Eric Sheridan (Goldman Sachs):** Thank you very much for taking the questions. Two, if I could.
+Eric Sheridan (Goldman Sachs): Thank you very much for taking the questions. Two, if I could.
 
 Sundar, you guys led over a year ago starting with Performance Max, and I wanted to know if we could get your updated thoughts on how AI might impact the broader advertising industry and how you are aligning Alphabet and Google's goals with AI and where it might take the advertising industry in the years ahead. That would be the first question.
 
 And then about a year ago, Philipp and Ruth started talking about some of the brand advertising headwinds that YouTube was facing. As we start to lap those headwinds, how should we be thinking about a broad recovery in brand advertising versus elements of still headwinds that are being faced in the broader Ads spaces, specifically with YouTube? Thank you.
 
-**Philipp Schindler, SVP and CBO, Google:** So maybe I take the first one.
+Philipp Schindler, SVP and CBO, Google: So maybe I take the first one.
 
 We are very pleased with how Performance Max is performing. It gives advertisers really a maximum performance across all inventory from one really AI-powered campaign, and it's probably the ultimate example of AI in action across our Ads products. It's delivering excellent ROI. Those using it achieve on average over 18% more conversions at a similar cost per action.
 
@@ -372,26 +442,27 @@ Our AI tools are very well-received. AI, gen AI are top of mind for everybody re
 Yeah, we're hearing a lot of good feedback on, number one, our Ads AI Essentials, which are really helping to unlock the power of AI and set up for durable ROI growth on the advertiser side. Those are products like the foundation for our data and measurement, things like Google Tag, Consent Mode and so on. Obviously Search and PMax, we talked about it, and then all
 
 
+
 ---
 
 
 those gen AI products, all those different ones. So there's a whole lot of interest in those products.
 
-**Ruth Porat, President and Chief Investment Officer; CFO, Alphabet and Google:** Then on to your second question regarding YouTube. As we said, overall, year-on-year growth in revenues was driven by both brand advertising and direct response. But very much to your question, yes, there was a stabilization in spending by advertisers. We’re really pleased about that. We’re particularly pleased about the ongoing performance in the Living Room and on Shorts. And as I said, that's both watchtime growth and monetization.
+Ruth Porat, President and Chief Investment Officer; CFO, Alphabet and Google: Then on to your second question regarding YouTube. As we said, overall, year-on-year growth in revenues was driven by both brand advertising and direct response. But very much to your question, yes, there was a stabilization in spending by advertisers. We’re really pleased about that. We’re particularly pleased about the ongoing performance in the Living Room and on Shorts. And as I said, that's both watchtime growth and monetization.
 
 I would say the other thing benefiting YouTube is the retail strength we talked about with Search -- retail strength in APAC in both Search and YouTube. That really began in the second quarter, continued in the third quarter, but that was another contributor. So quite a number of things going on. Feel good about the results the team was able to deliver here.
 
-**Eric Sheridan (Goldman Sachs):** Thank you so much.
+Eric Sheridan (Goldman Sachs): Thank you so much.
 
-**Operator:** Your next question comes from Lloyd Walmsley with UBS. Your line is open.
+Operator: Your next question comes from Lloyd Walmsley with UBS. Your line is open.
 
-**Lloyd Walmsley (UBS):** Great. Thanks for taking the question. Two, if I can.
+Lloyd Walmsley (UBS): Great. Thanks for taking the question. Two, if I can.
 
 First, as we just think about the rollout of SGE across the user base, how far along is that? And how do you balance the product rollout and consumer uptake versus monetization in that transition?
 
 And then the second one, also sort of generative AI-related, how quickly are you guys finding new ways of optimizing? Whether that's shrinking model sizes, chip efficiencies or anything else. And do you think overall capital intensity of business scales up, or do you just find ways to do this more efficiently as usage scales? Anything you can share there would be great. Thanks.
 
-**Sundar Pichai, CEO Alphabet and Google:** The first part about SGE, we are still in very early days in terms of how much we have rolled it out. But we have definitely gotten it out to enough people, both geographically, across user segments and enough to know that the product is working well. It improves the experience.
+Sundar Pichai, CEO Alphabet and Google: The first part about SGE, we are still in very early days in terms of how much we have rolled it out. But we have definitely gotten it out to enough people, both geographically, across user segments and enough to know that the product is working well. It improves the experience.
 
 But there are areas to improve, which we are fine-tuning. Our true north here is getting at the right user experience we want to, and I'm pretty comfortable seeing the trajectory. And we've always worked through these transitions, be it from desktop to mobile or from now, mobile to an AI-enhanced experience.
 
@@ -400,39 +471,37 @@ So it's nothing new, and I feel very comfortable that as we go through it, the s
 On your second question, at a high level, I would say all through the -- we just celebrated 25 years -- and of all the things I was proud about, when I looked at the strength of the work
 
 
----
 
+---
 
 we've done across our infrastructure as a company, our technical infrastructure as a company, and various given stages at a given moment in time, when we adopted new generations of technology. We've looked at the cost of it, but then the curves, the efficiency curves we have driven on top of it, has always been phenomenal to see. And I see the current moment as no different. Already through this year, we are driving significant efficiencies, both in our models, in training costs and serving costs, and our ability to adapt what's needed to the right use case.
 
 And so I think we'll do everything that is needed to make sure we have the leading AI models and infrastructure in the world, bar none. And we will continue driving efficiencies from there.
 
-**Lloyd Walmsley (UBS):** Thank you.
+Lloyd Walmsley (UBS): Thank you.
 
-**Operator:** Your next question comes from Michael Nathanson with MoffettNathanson. Your line is now open.
+Operator: Your next question comes from Michael Nathanson with MoffettNathanson. Your line is now open.
 
-**Michael Nathanson (Moffett):** Thank you. I'm going to ask you guys a multi-part question on YouTube TV. So, firstly, what were the broader objectives for getting Sunday Ticket? How did it perform versus those objectives? What lessons have you learned from having NFL Sunday Ticket? How does that affect your appetite for more sports going forward? Thanks.
+Michael Nathanson (Moffett): Thank you. I'm going to ask you guys a multi-part question on YouTube TV. So, firstly, what were the broader objectives for getting Sunday Ticket? How did it perform versus those objectives? What lessons have you learned from having NFL Sunday Ticket? How does that affect your appetite for more sports going forward? Thanks.
 
-**Philipp Schindler:** So, as Sundar said earlier, we are several weeks into our first season and we are very pleased with how it's going. I think in the broader context, you have to look at it as our overall YouTube subscription strategy.
+Philipp Schindler: So, as Sundar said earlier, we are several weeks into our first season and we are very pleased with how it's going. I think in the broader context, you have to look at it as our overall YouTube subscription strategy.
 
 The great feedback we've gotten so far on the YouTube experience is very, very significant. People love the navigation and they love multiview. They love the chats and the polls. And frankly, people are very happy with the lack of latency here.
 
 The number one piece of concrete feedback the team has gotten is actually that people want the ability to pick their own games for multiview, which is -- multiview is the awesome feature we started rolling out on YouTube TV that gives fans the ability to basically watch multiple streams here at once. And, yeah, overall, the teams are working hard to build a fantastic experience, and we are really trying to stay focused on getting our first season right and providing the best possible experience really for fans here.
 
-**Michael Nathanson (Moffett):** Thank you.
+Michael Nathanson (Moffett): Thank you.
 
-**Operator:** Your next question comes from Justin Post with Bank of America. Your line is now open.
+Operator: Your next question comes from Justin Post with Bank of America. Your line is now open.
 
-**Justin Post (Bank of America):** Great. Thank you, a couple questions on Q4. Can you provide any color on if there's been any pause in advertising around the Middle East conflict in October? Anything we should be aware of for Q4?
+Justin Post (Bank of America): Great. Thank you, a couple questions on Q4. Can you provide any color on if there's been any pause in advertising around the Middle East conflict in October? Anything we should be aware of for Q4?
 
 And then second, when we do think about the Sunday Ticket impact, I know you can't give us revenues or expenses, but overall, would that be a headwind to margins in Q4 or something we should be thinking about? Thank you.
-
 
 ---
 
 
-**Ruth Porat, President and Chief Investment Officer; CFO, Alphabet and Google:**  
-So look, on the first question, obviously this is a tragic, tragic -- there are no words to talk about what's going on. And all of our focus has been on supporting our people there and how our products can be as helpful as possible in this very painful time, broadly. And so nothing really to add.
+Ruth Porat, President and Chief Investment Officer; CFO, Alphabet and Google: So look, on the first question, obviously this is a tragic, tragic -- there are no words to talk about what's going on. And all of our focus has been on supporting our people there and how our products can be as helpful as possible in this very painful time, broadly. And so nothing really to add.
 
 And then in terms of the second question, Sunday Ticket, the only thing I tried to call out there is that clearly this is the first full quarter of Sunday Ticket that is contributing overall to the subscription revenues that we see. That's in part of Other Revenues. Also obviously, it is contributing to higher CAC in the fourth quarter. So tried to make that really clear.
 
@@ -440,25 +509,22 @@ And as we look longer term, we expect to generate an attractive return over the 
 
 As we've said, we've heard positive feedback from our partners at the NFL about the new features and livestream reliability. And this is really a clear example of our ability to execute big partnerships with excellence at scale and really leverage a lot of the extraordinary magic at YouTube and across Google. And that's what we're excited about.
 
-**Justin Post (Bank of America):**  
-Great, thank you.
+Justin Post (Bank of America): Great, thank you.
 
-**Operator:**  
-Your next question comes from Ken Gawrelski with Wells Fargo. Your line is now open.
+Operator: Your next question comes from Ken Gawrelski with Wells Fargo. Your line is now open.
 
-**Ken Gawrelski (Wells Fargo):**  
-Thank you so much. Two questions, if I may.
+Ken Gawrelski (Wells Fargo): Thank you so much. Two questions, if I may.
 
 First, how do you think about the future structure of AI-driven Search capabilities? Will activity remain centralized in a search bar, or will it be decentralized and present in many different applications, including on third-party applications? You alluded to Bard being integrated into multiple Google experiences earlier in the call.
 
 And then the second question is, any update on the Chrome cookie deprecation planned to begin in 1Q '24? What have you seen so far based on your early testing of Privacy Sandbox, and what advertiser feedback have you received?
 
-**Sundar Pichai, CEO Alphabet and Google:**  
-On your first question, look, you know, I broadly think of it as people are looking for information. They've always looked for it in many, many different ways. We've given the product search example. People can directly go to Amazon, as an example, or come to Google.
+Sundar Pichai, CEO Alphabet and Google: On your first question, look, you know, I broadly think of it as people are looking for information. They've always looked for it in many, many different ways. We've given the product search example. People can directly go to Amazon, as an example, or come to Google.
 
 If you zoom back and take an information view of the world, there's always been many different ways to get it. And part of our work we do in making Search be world-class and give users what they're looking for is so that we can get at as much of that intent as possible.
 
 So I don't see that changing. With mobile, there were more ways that people could get information, but we worked hard to make Search work better in the mobile world. And similarly,
+
 
 
 ---
@@ -466,7 +532,7 @@ So I don't see that changing. With mobile, there were more ways that people coul
 
 I view with AI, there will be many ways people get information. But it also offers us an opportunity in Search and in Assistant to take it to the next level and answer use cases, which we couldn't have done before, and expand a diverse set of needs where we are a source. So that's how I see the opportunity ahead.
 
-**Philipp Schindler, SVP and CBO, Google:** And to the second part of your question: yes, Chrome still plans to begin phasing out third-party cookies in the second half of '24.
+Philipp Schindler, SVP and CBO, Google: And to the second part of your question: yes, Chrome still plans to begin phasing out third-party cookies in the second half of '24.
 
 In the last several months, Chrome has really made significant progress on the Privacy Sandbox with APIs for developer testing. And they are now generally available in Chrome.
 
@@ -476,19 +542,20 @@ We also recently announced that in Q1 of '24 we plan to deprecate third-party co
 
 And we're overall encouraged by the ecosystem engagement on Privacy Sandbox. We'll continue to work with the industry and regulators in how these technologies can support the transition to, frankly, a more private web.
 
-**Ken Gawrelski (Wells Fargo):** Thank you.
+Ken Gawrelski (Wells Fargo): Thank you.
 
-**Operator:** And our last question comes from Mark Mahaney with Evercore. Your line is now open.
+Operator: And our last question comes from Mark Mahaney with Evercore. Your line is now open.
 
-**Mark Mahaney (Evercore ISI):** Thank you. Two questions, please.
+Mark Mahaney (Evercore ISI): Thank you. Two questions, please.
 
 Ruth, you talked about these elevated levels of investments in Q4 and in '24. I'm sorry, were you referring to just CapEx or CapEx and total expenses?
 
 And then on the comments around stabilization in Cloud, is this something that you just started to see in the September quarter, or had you seen that starting earlier in the year? And if you just started seeing it in the September quarter, would you have any thoughts on why you would have seen it, why Google Cloud would have seen it maybe later than some of the other hyperscalers? Thank you.
 
-**Ruth Porat, President and Chief Investment Officer; CFO, Alphabet and Google:** So I think what you're referring to was my CapEx comment. I was trying to make the point that we are committed to meaningfully investing in CapEx, given all the opportunities we see.
+Ruth Porat, President and Chief Investment Officer; CFO, Alphabet and Google: So I think what you're referring to was my CapEx comment. I was trying to make the point that we are committed to meaningfully investing in CapEx, given all the opportunities we see.
 
 We do continue to expect elevated levels of investment in our technical infrastructure. It will be increasing in the fourth quarter. And talked about some of the difference in timing, muted timing
+
 
 
 ---
@@ -502,10 +569,11 @@ And then as it relates to Cloud, as Sundar said, what we’re really excited abo
 
 GCP growth in the third quarter was above the growth rate for Cloud overall, and we feel really good about the work that they're doing there. And then, of course, in addition to that is all of the contribution from Google Workspace.
 
-**Mark Mahaney (Evercore ISI):** Thank you.
+Mark Mahaney (Evercore ISI): Thank you.
 
-**Operator:** Thank you. And that concludes our question-and-answer session for today. I'd like to turn the conference back over to Jim Friedland for any further remarks.
+Operator: Thank you. And that concludes our question-and-answer session for today. I'd like to turn the conference back over to Jim Friedland for any further remarks.
 
-**Jim Friedland, Director Investor Relations:** Thanks, everyone, for joining us today. We look forward to speaking with you again on our fourth quarter 2023 call. Thank you and have a good evening.
+Jim Friedland, Director Investor Relations: Thanks, everyone, for joining us today. We look forward to speaking with you again on our fourth quarter 2023 call. Thank you and have a good evening.
 
-**Operator:** Thank you, everyone. This concludes today’s conference call. Thank you for participating. You may now disconnect.
+Operator: Thank you, everyone. This concludes today’s conference call. Thank you for participating. You may now disconnect.
+

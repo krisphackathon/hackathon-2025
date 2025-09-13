@@ -20,7 +20,7 @@ from llama_index.core.workflow import (
     Event,
 )
 from llama_index.core.prompts import PromptTemplate
-from .models import QueryPlanItem, QueryPlan, QueryPlanItemResult, ExecutedPlanEvent
+from .models import QueryPlanItem, QueryPlan, QueryPlanItemResult, ExecutedPlanEvent, QueryAnswer
 os.environ["GOOGLE_API_KEY"] = "AIzaSyAkGA-LaMrWvXwyEbE5PZeeX6o2WsS2HP8"
 
 embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5")
@@ -32,41 +32,15 @@ def read_docs_from_dir(input_dir: Path):
     md_files = input_dir.glob("**/*.md")
     return md_files
 
+def load_vector_index(persist_dir: str):
+    storage_context = StorageContext.from_defaults(
+        persist_dir=persist_dir
+    )
+    return load_index_from_storage(storage_context)
 
-def build_vector_index(persist_dir: str):
-    if os.path.exists(persist_dir):
-        storage_context = StorageContext.from_defaults(
-            persist_dir=persist_dir
-        )
-        return load_index_from_storage(storage_context)
-    else:
-        index_docs = []
-        for doc in read_docs_from_dir(Path("./data/parsed")):
-            with open(doc) as f:
-                index_doc = Document(
-                    text=f.read(),
-                    metadata={"file_path": str(doc)}
-                )
-                index_docs.append(index_doc)
-
-        pipeline = IngestionPipeline(
-            name="document_parsing_pipeline",
-            project_name="krisp_hackathon",
-            transformations=[
-                SemanticSplitterNodeParser(
-                    buffer_size=1,
-                    breakpoint_percentile_threshold=95,
-                    embed_model=embed_model
-                )
-            ]
-        )
-        nodes = pipeline.run(documents=index_docs)
-        vector_index = VectorStoreIndex(nodes=nodes, use_async=True)
-        vector_index.storage_context.persist(persist_dir)
-        return vector_index
 
 index_persist_path = "./storage/documents_index"
-documents_index = build_vector_index(index_persist_path)
+documents_index = load_vector_index(index_persist_path)
 documents_query_engine = documents_index.as_query_engine(similarity_top_k=10, llm=llm)
 documents_tool = QueryEngineTool(
     query_engine=documents_query_engine,
@@ -80,7 +54,9 @@ all_tools = [documents_tool]
 class QueryPlanningWorkflow(Workflow):
     planning_prompt = PromptTemplate(
         "Think step by step. Given an initial query, as well as information about the indexes you can query, return a plan for a RAG system.\n"
-        "The plan should be a list of QueryPlanItem objects, where each object contains a query.\n"
+        "The plan should be a list of 1 to 4 QueryPlanItem objects, where each object contains a query.\n"
+        "Prioritize creating multiple different queries versus asking multiple questions in a single query."
+        "Breakdown user's initial ask into subqueries to achieve this."
         "The result of executing an entire plan should provide a result that is a substantial answer to the initial query, "
         "or enough information to form a new query plan.\n"
         "Sources you can query: {context}\n"
@@ -89,6 +65,9 @@ class QueryPlanningWorkflow(Workflow):
     )
     decision_prompt = PromptTemplate(
         "Given the following information, return a final response that satisfies the original query, or return 'PLAN' if you need to continue planning.\n"
+        "Prioritize planning again if the current results talk about concepts that you can dive deep into."
+        "Try to drill into the databse to fully cover the user's query in detail"
+        "If the retrieved results are empty, kindly state that you cannot answer the question based on the context."
         "Original query: {query}\n"
         "Current results: {results}\n"
     )
@@ -129,13 +108,14 @@ class QueryPlanningWorkflow(Workflow):
             # Decide if we need to replan or stop
             query = await ctx.store.get("original_query")
             current_results_str = ev.result
-            decision = await llm.apredict(
+            decision = await llm.astructured_predict(
+                QueryAnswer,
                 self.decision_prompt,
                 query=query,
                 results=current_results_str,
             )
 
-            if "PLAN" in decision.upper():
+            if "PLAN" in decision.decision:
                 context_str = await ctx.store.get("context")
                 query_plan = await llm.astructured_predict(
                     QueryPlan,
@@ -151,7 +131,7 @@ class QueryPlanningWorkflow(Workflow):
                 for item in query_plan.items:
                     ctx.send_event(item)
             else:
-                return StopEvent(result=decision)
+                return StopEvent(result=decision.answer)
 
     @step(num_workers=4)
     async def execute_item(
@@ -202,7 +182,7 @@ async def main():
     print("-" * 50)
 
 
-workflow = QueryPlanningWorkflow(verbose=False, timeout=50)
+workflow = QueryPlanningWorkflow(verbose=False, timeout=360)
 
 
 if __name__ == "__main__":
