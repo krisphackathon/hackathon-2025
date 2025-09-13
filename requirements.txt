@@ -15,3 +15,6 @@ google-cloud-documentai==3.6.0
 
 # Google Cloud Storage
 google-cloud-storage==3.3.1
+
+# Google GenAI
+google-genai==1.36.0
