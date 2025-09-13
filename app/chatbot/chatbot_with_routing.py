@@ -202,5 +202,8 @@ async def main():
     print("-" * 50)
 
 
+workflow = QueryPlanningWorkflow(verbose=False, timeout=50)
+
+
 if __name__ == "__main__":
     asyncio.run(main())
