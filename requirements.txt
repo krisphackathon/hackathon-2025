@@ -9,3 +9,9 @@ python-dotenv==1.0.1
 # PDF processing (if converting PDFs locally)
 pymupdf4llm>=0.0.27
 PyMuPDF>=1.26.3
+
+# Google Cloud Document AI
+google-cloud-documentai==3.6.0
+
+# Google Cloud Storage
+google-cloud-storage==3.3.1
