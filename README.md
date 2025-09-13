@@ -1,3 +1,19 @@
+# Run backend
+
+```bash
+$ cd app
+$ source .venv/bin/activate
+$ python3 main.py
+```
+
+Run frontend
+
+```bash
+$ cd frontend
+$ npm start
+```
+
+
 # Krisp Hackathon 2025 - AI Meeting Assistant Chat
 
 A production-grade AI-powered chat application that interacts with a large proprietary knowledge base of meeting transcriptions, built for the Krisp Hackathon 2025.
