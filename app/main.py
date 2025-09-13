@@ -1,6 +1,7 @@
-from fastapi import FastAPI, Depends
+from fastapi import FastAPI, Depends, Request
 from pydantic import BaseModel
 import uvicorn
+from fastapi.middleware.cors import CORSMiddleware
 
 from pydantic_ai import Agent, RunContext
 from pydantic_ai.messages import ModelMessage
@@ -15,6 +16,14 @@ class UserQuestion(BaseModel):
 app = FastAPI(
     title="Chatbot API",
     debug=True
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 agent = Agent(  
@@ -57,6 +66,13 @@ async def chatbot_response(
     message_history.extend(model_messages)
 
     return {"response": result.output}
+
+
+@app.options("/")
+async def check( 
+    request: Request
+):
+    return True
 
 
 if __name__ == "__main__":
