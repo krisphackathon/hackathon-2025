@@ -15,7 +15,6 @@ from llama_index.llms.google_genai import GoogleGenAI
 from llama_index.core.tools import QueryEngineTool
 from llama_index.core import StorageContext
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAkGA-LaMrWvXwyEbE5PZeeX6o2WsS2HP8"
 
 embed_model = HuggingFaceEmbedding(
     model_name="BAAI/bge-small-en-v1.5"
@@ -43,8 +42,8 @@ def build_vector_index(input_dir: str, persist_dir: str):
         project_name="krisp_hackathon",
         transformations=[
             SemanticSplitterNodeParser(
-                buffer_size=1,
-                breakpoint_percentile_threshold=95,
+                buffer_size=4,
+                breakpoint_percentile_threshold=75,
                 embed_model=embed_model
             )
         ]

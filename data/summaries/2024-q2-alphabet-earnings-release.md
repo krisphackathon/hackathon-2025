@@ -1,46 +1,46 @@
 # Earnings Release Q2 2024 (GOOG, GOOGL) — July 23, 2024
 
 ## Summary
-Alphabet Inc. announced its financial results for the second quarter of 2024, which ended on June 30, 2024. The company reported total revenues of $84.7 billion, a 14% increase year-over-year, driven by strength in Search and momentum in Cloud, which surpassed $10 billion in quarterly revenues for the first time. Net income reached $23.6 billion, with diluted EPS of $1.89. The document provides detailed consolidated financial statements, segment results, and reconciliations of non-GAAP measures.
+Alphabet Inc. announced its financial results for the second quarter ended June 30, 2024. The company reported revenues of $85 billion, a 14% increase year-over-year, driven by strength in Search and momentum in Cloud. The release includes quotes from CEO Sundar Pichai and CFO Ruth Porat, along with detailed unaudited consolidated financial statements and segment results.
 
 
 ## Q&A
 Q: What was the total revenue for the quarter?
-A: $84,742 million
+A: $84,742
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 1
 
-    quote: Revenues $ 74,604 $ 84,742
+    quote: Revenues $ 84,742
 
   </details>
 
 Q: What was the operating income for the quarter?
-A: $27,425 million
+A: $27,425
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 1
 
-    quote: Operating income $ 21,838 $ 27,425
+    quote: Operating income $ 27,425
 
   </details>
 
 Q: What was the net income for the quarter?
-A: $23,619 million
+A: $23,619
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 1
 
-    quote: Net income $ 18,368 $ 23,619
+    quote: Net income $ 23,619
 
   </details>
 
@@ -49,11 +49,11 @@ A: 32%
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 1
 
-    quote: Operating margin 29 % 32 %
+    quote: Operating margin 32 %
 
   </details>
 
@@ -62,11 +62,11 @@ A: $1.91
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 5
 
-    quote: Basic earnings per share $ 1.45 $ 1.91
+    quote: Basic earnings per share $ 1.91
 
   </details>
 
@@ -75,24 +75,24 @@ A: $1.89
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 1
 
-    quote: Diluted EPS $ 1.44 $ 1.89
+    quote: Diluted EPS $ 1.89
 
   </details>
 
 Q: What was the number of shares used in the diluted EPS calculation?
-A: 12,495 million
+A: 12,495
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 5
 
-    quote: Number of shares used in diluted earnings per share calculation 12,764 12,495
+    quote: Number of shares used in diluted earnings per share calculation 12,495
 
   </details>
 
@@ -101,11 +101,11 @@ A: 14%
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 1
 
-    quote: Change in revenues year over year 7 % 14 %
+    quote: Change in revenues year over year 14 %
 
   </details>
 
@@ -114,11 +114,11 @@ A: 15%
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 1
 
-    quote: Change in constant currency revenues year over year(1) 9 % 15 %
+    quote: Change in constant currency revenues year over year(1) 15 %
 
   </details>
 
@@ -127,7 +127,7 @@ A: 3
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 7
 
@@ -136,158 +136,158 @@ A: 3
   </details>
 
 Q: What was the total advertising revenue?
-A: $64,616 million
+A: $64,616
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 2
 
-    quote: Google advertising 58,143 64,616
+    quote: Google advertising 64,616
 
   </details>
 
 Q: What was the total revenue from cloud services?
-A: $10,347 million
+A: $10,347
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 2
 
-    quote: Google Cloud 8,031 10,347
+    quote: Google Cloud 10,347
 
   </details>
 
 Q: What was the total revenue from subscriptions, platforms, and devices?
-A: $9,312 million
+A: $9,312
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 2
 
-    quote: Google subscriptions, platforms, and devices 8,142 9,312
+    quote: Google subscriptions, platforms, and devices 9,312
 
   </details>
 
 Q: What was the revenue from the United States region?
-A: $41,196 million
+A: $41,196
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 9
 
-    quote: United States $ 35,073 $ 41,196
+    quote: United States $ 41,196
 
   </details>
 
 Q: What was the revenue from the EMEA (Europe, Middle East, and Africa) region?
-A: $24,683 million
+A: $24,683
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 9
 
-    quote: EMEA 22,289 24,683
+    quote: EMEA 24,683
 
   </details>
 
 Q: What was the revenue from the APAC (Asia-Pacific) region?
-A: $13,823 million
+A: $13,823
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 9
 
-    quote: APAC 12,728 13,823
+    quote: APAC 13,823
 
   </details>
 
 Q: What were the total operating expenses?
-A: $57,317 million
+A: $57,317
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 5
 
-    quote: Total costs and expenses 52,766 57,317
+    quote: Total costs and expenses 57,317
 
   </details>
 
 Q: What were the total costs of revenue?
-A: $35,507 million
+A: $35,507
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 5
 
-    quote: Cost of revenues 31,916 35,507
+    quote: Cost of revenues 35,507
 
   </details>
 
 Q: What were the research and development (R&D) expenses?
-A: $11,860 million
+A: $11,860
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 5
 
-    quote: Research and development 10,588 11,860
+    quote: Research and development 11,860
 
   </details>
 
 Q: What were the sales and marketing (S&M) expenses?
-A: $6,792 million
+A: $6,792
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 5
 
-    quote: Sales and marketing 6,781 6,792
+    quote: Sales and marketing 6,792
 
   </details>
 
 Q: What were the general and administrative (G&A) expenses?
-A: $3,158 million
+A: $3,158
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 5
 
-    quote: General and administrative 3,481 3,158
+    quote: General and administrative 3,158
 
   </details>
 
 Q: What were the capital expenditures (purchases of property and equipment)?
-A: $13,186 million
+A: $13,186
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 6
 
-    quote: Purchases of property and equipment (6,888) (13,186)
+    quote: Purchases of property and equipment (13,186)
 
   </details>
 
@@ -296,124 +296,124 @@ A: 179,582
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 2
 
-    quote: Number of employees 181,798 179,582
+    quote: Number of employees 179,582
 
   </details>
 
 Q: What was the total balance of cash, cash equivalents, and marketable securities?
-A: $100,725 million
+A: $100,725
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 4
 
-    quote: Total cash, cash equivalents, and marketable securities 110,916 100,725
+    quote: Total cash, cash equivalents, and marketable securities 100,725
 
   </details>
 
 Q: What were the total assets?
-A: $414,770 million
+A: $414,770
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 4
 
-    quote: Total assets $ 402,392 $ 414,770
+    quote: Total assets $ 414,770
 
   </details>
 
 Q: What were the total liabilities?
-A: $114,017 million
+A: $114,017
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 4
 
-    quote: Total liabilities 119,013 114,017
+    quote: Total liabilities 114,017
 
   </details>
 
 Q: What was the total stockholders' equity?
-A: $300,753 million
+A: $300,753
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 4
 
-    quote: Total stockholders' equity 283,379 300,753
+    quote: Total stockholders' equity 300,753
 
   </details>
 
 Q: What was the total long-term debt?
-A: $13,238 million
+A: $13,238
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 4
 
-    quote: Long-term debt 13,253 13,238
+    quote: Long-term debt 13,238
 
   </details>
 
 Q: What was the net cash provided by operating activities for the quarter?
-A: $26,640 million
+A: $26,640
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 6
 
-    quote: Net cash provided by operating activities 28,666 26,640
+    quote: Net cash provided by operating activities 26,640
 
   </details>
 
 Q: What was the net cash used in investing activities for the quarter?
-A: $(2,781) million
+A: $(2,781)
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 6
 
-    quote: Net cash used in investing activities (10,800) (2,781)
+    quote: Net cash used in investing activities (2,781)
 
   </details>
 
 Q: What was the net cash used in financing activities for the quarter?
-A: $(20,889) million
+A: $(20,889)
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 6
 
-    quote: Net cash used in financing activities (17,835) (20,889)
+    quote: Net cash used in financing activities (20,889)
 
   </details>
 
 Q: What was the free cash flow for the quarter?
-A: $13,454 million
+A: $13,454
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 8
 
@@ -426,36 +426,36 @@ A: $0.20 per share
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 2
 
-    quote: On July 23, 2024, Alphabet announced a cash dividend of $0.20 per share that will be paid on September 16, 2024
+    quote: Alphabet announced a cash dividend of $0.20 per share that will be paid on September 16, 2024
 
   </details>
 
 Q: What was the total amount of dividends paid during the quarter?
-A: $2,466 million
+A: $2,466
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 6
 
-    quote: Dividend payments 0 (2,466)
+    quote: Dividend payments (2,466)
 
   </details>
 
 Q: What was the total value of shares repurchased during the quarter?
-A: $15,684 million
+A: $15,684
   <details>
     <summary>Source</summary>
 
-    filename: 2024-q2-alphabet-earnings-release.pdf
+    filename: document
 
     page: 6
 
-    quote: Repurchases of stock (14,969) (15,684)
+    quote: Repurchases of stock (15,684)
 
   </details>

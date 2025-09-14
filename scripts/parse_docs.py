@@ -3,6 +3,7 @@ from pathlib import Path
 from llama_cloud_services import LlamaParse
 from llama_cloud_services.parse.types import JobResult
 import shutil
+import os
 
 async def parse_and_save(input_dir: Path, output_dir: Path):
     """
@@ -13,7 +14,7 @@ async def parse_and_save(input_dir: Path, output_dir: Path):
     output_dir.mkdir(parents=True, exist_ok=True)
     
     parser = LlamaParse(
-        api_key="llx-fDozxYsRQ2OjxKMlmGBYOZq3PCisCcowmlVevPJ7qRGkAMY6",
+        api_key=os.getenv("LLAMAPARSE_API_KEY"),
         page_separator="\n\n---\n\n",
         model="openai-gpt-4-1",
         parse_mode="parse_page_with_agent",

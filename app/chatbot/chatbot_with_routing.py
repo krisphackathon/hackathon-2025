@@ -21,7 +21,6 @@ from llama_index.core.workflow import (
 )
 from llama_index.core.prompts import PromptTemplate
 from .models import QueryPlanItem, QueryPlan, QueryPlanItemResult, ExecutedPlanEvent, QueryAnswer
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAkGA-LaMrWvXwyEbE5PZeeX6o2WsS2HP8"
 
 embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5")
 Settings.embed_model = embed_model
@@ -50,7 +49,7 @@ documents_tool = QueryEngineTool(
     query_engine=documents_query_engine,
     metadata=ToolMetadata(
         name="documents_tool",
-        description="Use this tool to execute semantic queries against document store."
+        description="Use this tool to execute semantic queries against document store containing information about google features, and their financial reports."
     ),
 )
 fin_documents_query_engine = financial_index.as_query_engine(similarity_top_k=10, llm=llm)
@@ -72,15 +71,14 @@ class QueryPlanningWorkflow(Workflow):
         "The result of executing an entire plan should provide a result that is a substantial answer to the initial query, "
         "or enough information to form a new query plan.\n"
         "Sources you can query: {context}\n"
+
+        "Keep in mind that both indexes can contain the information you need. Make sure to search all of them. So execute queries against both of them."
         "Initial query: {query}\n"
         "Plan:"
     )
     decision_prompt = PromptTemplate(
         "Given the following information, return a final response that satisfies the original query, or return 'PLAN' if you need to continue planning.\n"
-        "Prioritize planning again if the current results talk about concepts that you can dive deep into."
-        "Try to drill into the databse to fully cover the user's query in detail"
         "If the retrieved results are empty, kindly state that you cannot answer the question based on the context."
-        "Original query: {query}\n"
         "Current results: {results}\n"
     )
 
